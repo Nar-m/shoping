@@ -1,0 +1,164 @@
+.slider{
+    position: relative;
+    width: 100%;
+    height: 302px;
+    overflow: hidden;
+}
+.slider .slid-item{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform ease-in-out 0.3s;
+}
+.slider .slid-item img{
+    width: 100%;
+    height: 100%;
+}
+.slider button{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    z-index: 1;
+    background: white;
+    box-shadow:  0.5px 0.8px #0002;
+    color: rgb(110, 106, 106);
+    border-radius: 50%;
+    top: 50%;
+}
+.slider button:first-child{
+    left: 10%;
+}
+.slider button:last-child{
+    right: 10%;
+}
+.wrapp-cart{
+    flex-grow: 0;
+    width: 30%;
+    margin: 10px;
+    padding: 8px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);;
+    border-radius: 10px;
+}
+.wrapp-cart .name{
+    font-size: 0.875rem;
+    font-family: Noto Sans Armenian,sans-serif,Arial,Open Sans,"Segoe UI","Segoe UI Emoji","Segoe UI Symbol","Helvetica Neue","Apple Color Emoji";
+    font-weight: 700;
+    line-height: 1.57;
+    font-size: 18px;
+}
+.more{
+    width: 50%;
+}
+.more button{
+    width: 100%;
+    padding: 10px 18px;
+    font-weight: bold;
+    line-height: 22px;
+    text-transform: inherit;
+    background-color: #e91e4d;
+    color: #fff;
+}
+.aside{
+    width: 20%;
+    padding: 8px;
+    color: #424242;
+    font-family: Noto Sans Armenian,sans-serif,Arial,Open Sans,"Segoe UI","Segoe UI Emoji","Segoe UI Symbol","Helvetica Neue","Apple Color Emoji";
+
+}
+.aside .kingnom  li{
+    padding: 10px 12px;
+}
+.aside .kingnom{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+    overflow-y: scroll;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+.aside .kingnom::-webkit-scrollbar{
+    width: 5px;
+    height: 10px;
+  background-color: #aaa;
+}
+.aside .kingnom::-webkit-scrollbar-thumb{
+    background-color: #424242;
+    border-radius: 5px;
+}
+.check{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+
+}
+.check h2{
+    font-size: 22px;
+    font-weight: 500;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.My-chip{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.search{
+    width: 100%;
+    padding: 12px;
+    position: relative;
+}
+.search .search-box{
+    width: 30%;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    position: relative;
+}
+.search-coteiner{
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    width: 20%;
+    padding: 10px;
+    border-radius: 8px;
+    color: #424242;
+    font-weight: 500;
+}
+.search-coteiner > div{
+    padding: 5px;
+    cursor: pointer;
+}
+.search-coteiner .text:hover{
+    color: #e91e4d;
+    background-color: #fff;
+}
+.search .search-box input{
+    width: 100%;
+    border-radius: 30px;
+    padding: 5px 8px;
+}
+.My-chip .role{
+    display: inline-flex;
+    cursor: default;
+    height: 32px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F88368;
+    padding: 10px;
+    vertical-align: middle;
+    justify-content: center;
+    font-family: Noto Sans Armenian,sans-serif,Arial,Open Sans,"Segoe UI","Segoe UI Emoji","Segoe UI Symbol","Helvetica Neue","Apple Color Emoji";
+    color: #fff;
+    white-space: nowrap;
+    border-radius: 16px;
+    margin: 0 10px;
+}

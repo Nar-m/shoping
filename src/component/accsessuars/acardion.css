@@ -1,0 +1,126 @@
+.acardion .acardion-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-top: 10px;
+}
+.sydbar{
+    width: 20vw;
+    padding: 10px;
+}
+.acardion .acardion-items button {
+    font-size: 18px;
+    color: #626262;
+}
+
+.acardion .acardion-items span {
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    margin-right: 12px;
+}
+
+.acardion .conteiner>div {
+    padding: 5px;
+}
+
+.conteiner {
+    transition: height ease-in-out 0.3s;
+    padding: 5px;
+}
+
+.conteiner span {
+    font-size: 17px;
+    font-family: 'poppins', sans-serif;
+}
+
+.conteiner span:hover {
+    text-decoration: underline;
+}
+
+.sydbar h2 {
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+    color: #626262;
+}
+.brand-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+.brand-item .card {
+    font-weight: 400;
+    cursor: pointer;
+    color: inherit;
+    white-space: nowrap;
+    border-radius: 3px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.brand-item .card span {
+    border-radius: 3px;
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: #626262;
+}
+.colors{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.color-item {
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    font-weight: 400;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, .1);
+    font-size: 14px;
+    line-height: 30px;
+    margin: 2px
+}
+
+.color-item>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.sizes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.sizes>div {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    font-weight: 400;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, .1);
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 17px;
+    border-radius: 3px;
+}

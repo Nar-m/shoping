@@ -1,0 +1,65 @@
+.tictact-conteiner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 12px;
+    padding: 5px;
+    border: 1px solid black;
+    position: relative;
+    width: 340px;
+
+}
+.tictact-conteiner .block{
+    border: 1px solid red;
+    padding: 30px;
+    font-size: 25px;
+    color: black;
+}
+.strike{
+    position: absolute;
+    background-color: darkorange;
+}
+.strike-row-1{
+    width: 100%;
+    height: 4px;
+    top: 15%;
+    z-index: 1;
+}
+.strike-row-2{
+    width: 100%;
+    height: 4px;
+    top: 48%;
+}
+.strike-row-3{
+    width: 100%;
+    height: 4px;
+    bottom: 15%;
+}
+.strike-column-1{
+    width: 4px;
+    height: 100%;
+    left: 15%;
+}
+.strike-column-2{
+    width: 4px;
+    height: 100%;
+    left: 48%;
+}
+.strike-column-3{
+    width: 4px;
+    height: 100%;
+    left: 83%;
+}
+.strike-skew-1{
+    width: 90%;
+    height: 4px;
+    top: 50%;
+    left: 5%;
+    transform: skewY(36deg);
+}
+.strike-skew-2{
+    width: 90%;
+    height: 4px;
+    top: 50%;
+    left: 5%;
+    transform: skewY(-36deg);
+}

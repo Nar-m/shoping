@@ -1,0 +1,137 @@
+.single-conteiner {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.single-conteiner .images {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ .single-images{
+    min-width: 500px;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+  .single-images .single-img {
+    width: 100%;
+    transition-duration: 0.5s;
+    position: absolute;
+    border-style: solid;
+    overflow: hidden;
+    border-color: #E6E6E6;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 6px 6px 6px 6px;
+    height: 100%;
+}
+.single-images .single-img img{
+    width: 100%;
+    height: 100%;
+    cursor: zoom-in;
+    object-fit: contain;
+}
+.single-conteiner .description {
+    width: 50%;
+}
+
+.single-conteiner .description h1 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.single-conteiner .description .text{
+    width: 65%;
+}
+.single-conteiner .description p {
+    white-space: wrap;
+    font-size: 18px;
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    line-height: 35px;
+    flex-wrap: wrap;
+    color: #2e3331;;
+}
+.single-conteiner .description .prices{
+    font-size: 17px;
+    margin-top: 15px;
+    color: #97d5ee;
+    font-weight: 500;
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.zoom-img{
+    padding: 12px;
+}
+.zoom-img button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #eeeaea;
+    font-size: 20px;
+    margin: 0 12px;
+}
+.single-conteiner .images .dott-img {
+    width: 180px;
+    height: 180px;
+    opacity: 0.3;
+    margin: 0 6px;
+    transition: opacity ease-in-out 0.3s;
+}
+.single-conteiner .images .dott-img.active{
+    opacity: 1;
+}
+.single-conteiner .quantity{
+    margin-right: 10px;
+    width: 130px;
+    position: relative;
+    flex-shrink: 0;
+    color: #4d4b4b;
+    border: 2px solid #919090;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    
+}
+.single-conteiner .btns .buttons{
+    font-size: 16px;
+    line-height: 20px;
+    padding: 15px 35px;
+    background-color: #7f54b3;
+    color: #fff;
+}
+.single-conteiner .btns .buttons.not{
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+.single-conteiner .wishlist i{
+    margin-left: 13px;
+    font-size: 20px;
+}
+.single-conteiner .selected{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0;
+    width: 45%;
+    border-bottom: 1px solid rgba(0,0,0,.04);
+}
+.single-conteiner .selected label{
+    font-weight: 500;
+    margin-right: 10px;
+    font-weight: 500;
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.single-conteiner .selected select{
+    color: #797979;
+    background-color: rgba(240,245,247,1);
+    border-color: #f0f5f7;
+    padding: 12px;
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    padding-right: 25px;
+}

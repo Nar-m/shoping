@@ -1,0 +1,97 @@
+.wish-header {
+    background-color: rgba(247, 247, 247, 1);
+    padding: 70px 0;
+    position: relative;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #626262;
+}
+
+.wish-header .title {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #161922;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.wish-header .wish-link {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#wish-content {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 70px 0;
+    position: relative;
+}
+
+#wish-content h3 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #161922;
+}
+
+#wish-content button {
+    background-color: #0089F7;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: 400;
+    line-height: 24px;
+    overflow: hidden;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.descript{
+    width: 50%;
+}
+.descript h3{
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: inherit;
+    color: #161922;
+}
+.descript span{
+    color: #0089F7;
+    font-size: 20px;
+    font-weight: inherit;
+
+}
+.descript p{
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+    color: #626262;
+}
+
+.add{
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    padding: 0.618em 1em;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 3px;
+    left: auto;
+    color: #515151;
+    background-color: #e9e6ed;
+    border: 0;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+    background-color: #006edf;
+    color: #fff;
+}

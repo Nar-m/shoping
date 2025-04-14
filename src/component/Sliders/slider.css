@@ -1,0 +1,34 @@
+.slider-conteiner {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.slider-conteiner .slid {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform ease-in-out 0.3s;
+}
+
+.slider-conteiner .slid img {
+    width: 100%;
+    height: 100%;
+}
+
+.slider-conteiner .pagination {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    z-index: 1;
+    color: black;
+}
+
+.slider-conteiner .pagination span {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
